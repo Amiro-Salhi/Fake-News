@@ -3,7 +3,10 @@ h1{
 }
 
 body {
- background-image: url("./../Images/Background-Image.JPEG");
+  background-image: url("./../Images/Background-Image.JPEG");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 body {
