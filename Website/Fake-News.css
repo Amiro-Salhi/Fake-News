@@ -7,6 +7,11 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
 
 body {
@@ -48,4 +53,9 @@ ul li a:hover:not(.active) {
 
 ul li a.active {
   background-color: green;
+}
+footer {
+  min-height: 50px;
+  background: green;
+  text-align: center;
 }
