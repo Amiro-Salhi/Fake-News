@@ -1,6 +1,7 @@
 h1{
     color: rgb(60, 179, 60);
     text-align: center;
+    background-color: blue;
 }
 
 h2{
@@ -13,6 +14,10 @@ h3{
   background-color: green;
   color: aqua;
   text-align: center;
+}
+
+.page-info{
+  background-color: lightseagreen;
 }
 
 .container{ 
