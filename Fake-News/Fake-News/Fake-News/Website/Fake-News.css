@@ -1,6 +1,5 @@
 h1{
     color: rgb(60, 179, 60);
-    text-align: center;
 }
 
 body {
@@ -8,34 +7,16 @@ body {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
 }
-
-img{
-  max-width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-main { 
+main {
   flex: 1;
-  align-self: center;
-  width: 70vw;
-  background-color: rgb(67, 67, 67);
 }
-
-main h1, main p { 
-  margin-left: 16px; 
-  margin-right: 16px; 
-} 
 
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 h2, p {
@@ -44,7 +25,6 @@ h2, p {
 
 p{
   color: lightcyan;
-  text-align: center;
 }
 
 ul {
@@ -74,21 +54,8 @@ ul li a:hover:not(.active) {
 ul li a.active {
   background-color: green;
 }
-
-footer { 
-  min-height: 50px; 
-  background: green; 
-  text-align: center; 
-} 
-
-@media (max-width: 768px) { 
-  main { 
-    width: 100vw; 
-  }; 
-} 
- 
-@media (min-width: 768px) and (max-width: 1200px) { 
-  main { 
-    width: 95vw; 
-  }; 
+footer {
+  min-height: 50px;
+  background: green;
+  text-align: center;
 }

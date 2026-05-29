@@ -9,10 +9,17 @@ h2{
   text-align: center;
 }
 
-.container{
-  display: grid;
-  grid-template-columns: auto auto auto;
+h3{
+  background-color: green;
+  color: aqua;
+  text-align: center;
 }
+
+.container{ 
+  display: grid; 
+  grid-template-columns: auto auto auto; 
+} 
+
 .container1{
   background-color: green;
   color: lightskyblue;
