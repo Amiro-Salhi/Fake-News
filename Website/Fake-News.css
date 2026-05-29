@@ -12,17 +12,24 @@ body {
   flex-direction: column; 
 }
 
+img{
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
 main { 
   flex: 1;
   align-self: center;
   width: 70vw;
-  background-color: rgb(67, 67, 67);
+  background-color: black;
 }
-main h1, main p {
-  margin-left: 16px;
-  margin-right: 16px;
-}
+
+main h1, main p { 
+  margin-left: 16px; 
+  margin-right: 16px; 
+} 
 
 body {
   margin: 0;
@@ -31,15 +38,18 @@ body {
   flex-direction: column;
 }
 
+h2, p {
+  margin: 10px;
+}
+
 p{
   color: lightcyan;
-  
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  margin-bottom: 16px;
   padding: 0;
   overflow: hidden;
   background-color: green;
@@ -71,16 +81,14 @@ footer {
   text-align: center; 
 } 
 
-
-
-@media (max-width: 768px) {
-  main {
-    width: 100vw;
-  };
-}
-
-@media (min-width: 768px) and (max-width: 1200px) {
-  main {
-    width: 95vw;
-  };
+@media (max-width: 768px) { 
+  main { 
+    width: 100vw; 
+  }; 
+} 
+ 
+@media (min-width: 768px) and (max-width: 1200px) { 
+  main { 
+    width: 95vw; 
+  }; 
 }
