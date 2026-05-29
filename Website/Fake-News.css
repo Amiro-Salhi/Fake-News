@@ -23,7 +23,7 @@ main {
   flex: 1;
   align-self: center;
   width: 70vw;
-  background-color: black;
+  background-color: rgb(67, 67, 67);
 }
 
 main h1, main p { 
