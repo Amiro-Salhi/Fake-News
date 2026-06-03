@@ -1,32 +1,32 @@
-h1{
-    color: rgb(60, 179, 60);
-    text-align: center;
-    background-color: blue;
+h1 {
+  color: rgb(60, 179, 60);
+  text-align: center;
+  background-color: blue;
 }
 
-h2{
+h2 {
   background-color: green;
   color: lightskyblue;
   text-align: center;
 }
 
-h3{
+h3 {
   background-color: green;
   color: aqua;
   text-align: center;
 }
 
-.page-info{
+.page-info {
   color: lightseagreen;
 }
 
-.container{ 
-  display: grid; 
-  grid-template-columns: auto auto auto; 
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
   margin: 8px;
-} 
+}
 
-.container1{
+.container1 {
   background-color: green;
   color: lightskyblue;
   text-align: center;
@@ -41,8 +41,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   min-height: 100vh;
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -66,17 +66,17 @@ header {
   margin-bottom: auto;
 }
 
-.headertext h1{
+.headertext h1 {
   text-align: left;
   font-size: 42px;
 }
 
-.headertext p{
+.headertext p {
   text-align: left;
   font-size: 18px;
 }
 
-.pic{
+.pic {
   max-width: 95%;
   height: auto;
   margin-left: auto;
@@ -84,7 +84,7 @@ header {
   display: block;
 }
 
-main { 
+main {
   flex: 1;
   align-self: center;
   width: 70vw;
@@ -92,15 +92,17 @@ main {
   background-color: rgb(67, 67, 67);
 }
 
-main h1, main p { 
-  margin-left: 16px; 
-  margin-right: 16px; 
-} 
+main h1,
+main p {
+  margin-left: 16px;
+  margin-right: 16px;
+}
 
-main header h1, main header p { 
+main header h1,
+main header p {
   margin: 8px;
   background-color: rgb(29, 29, 29);
-} 
+}
 
 body {
   margin: 0;
@@ -109,11 +111,12 @@ body {
   flex-direction: column;
 }
 
-h2, p {
+h2,
+p {
   margin: 10px;
 }
 
-p{
+p {
   color: lightcyan;
   text-align: center;
 }
@@ -146,32 +149,51 @@ ul li a.active {
   background-color: green;
 }
 
-footer { 
-  min-height: 50px; 
-  background: green; 
-  text-align: center; 
-} 
-
-@media (max-width: 768px) { 
-  main { 
-    width: 100vw; 
-    margin-top: 0px
-  }; 
-} 
- 
-@media (min-width: 768px) and (max-width: 1200px) { 
-  main { 
-    width: 95vw; 
-  }; 
+footer {
+  min-height: 50px;
+  background: green;
+  text-align: center;
 }
 
-@media (max-width: 900px) { 
-  .container{ 
-    display: flex; 
-    flex-direction: column; 
+@media (max-width: 600px) {
+  .headerhome {
+    display: flex;
+    flex-direction: column;
+    grid-template-areas: auto;
+    grid-template-columns: auto;
+  }
+
+  .headerpic {
+    align-self: center;
+  }
+
+  .headertext h1,
+  .headertext p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100vw;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  main {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  } 
-  .container1{
+  }
+
+  .container1 {
     max-width: 550px;
   }
 }
