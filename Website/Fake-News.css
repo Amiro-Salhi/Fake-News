@@ -17,12 +17,13 @@ h3{
 }
 
 .page-info{
-  background-color: lightseagreen;
+  color: lightseagreen;
 }
 
 .container{ 
   display: grid; 
   grid-template-columns: auto auto auto; 
+  margin: 8px;
 } 
 
 .container1{
@@ -31,20 +32,53 @@ h3{
   text-align: center;
   max-width: 350px;
   border-radius: 10px;
-  margin: 16px;
+  margin: 8px;
 }
 
 body {
   background-image: url("./../Images/Background-Image.JPEG");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex; 
   flex-direction: column; 
 }
 
-img{
-  max-width: 25%;
+header {
+  background-color: rgb(29, 29, 29);
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.headerhome {
+  display: grid;
+  grid-template-areas: auto auto;
+  grid-template-columns: 1fr 2fr;
+}
+
+.headerpic {
+  justify-self: right;
+}
+
+.headertext {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headertext h1{
+  text-align: left;
+  font-size: 42px;
+}
+
+.headertext p{
+  text-align: left;
+  font-size: 18px;
+}
+
+.pic{
+  max-width: 95%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -54,12 +88,18 @@ main {
   flex: 1;
   align-self: center;
   width: 70vw;
+  margin-top: 16px;
   background-color: rgb(67, 67, 67);
 }
 
 main h1, main p { 
   margin-left: 16px; 
   margin-right: 16px; 
+} 
+
+main header h1, main header p { 
+  margin: 8px;
+  background-color: rgb(29, 29, 29);
 } 
 
 body {
@@ -115,6 +155,7 @@ footer {
 @media (max-width: 768px) { 
   main { 
     width: 100vw; 
+    margin-top: 0px
   }; 
 } 
  
@@ -122,4 +163,15 @@ footer {
   main { 
     width: 95vw; 
   }; 
+}
+
+@media (max-width: 900px) { 
+  .container{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  } 
+  .container1{
+    max-width: 550px;
+  }
 }
