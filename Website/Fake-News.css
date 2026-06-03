@@ -20,6 +20,11 @@ h3 {
   color: lightseagreen;
 }
 
+p{
+  background-color: green;
+  color: lightskyblue;
+}
+
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -151,6 +156,21 @@ ul li a:hover:not(.active) {
 
 ul li a.active {
   background-color: green;
+}
+
+.button {
+  background-color: green;
+  border: none;
+  color: lightskyblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 footer {
