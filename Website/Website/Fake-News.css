@@ -1,0 +1,233 @@
+h1 {
+  color: rgb(60, 179, 60);
+  text-align: center;
+  background-color: blue;
+}
+
+h2 {
+  background-color: green;
+  color: lightseagreen;
+  text-align: center;
+}
+
+h3 {
+  background-color: green;
+  color: aqua;
+  text-align: center;
+}
+
+.page-info {
+  color: lightseagreen;
+}
+
+p{
+  background-color: green;
+  color: lightskyblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 8px;
+}
+
+.container1 {
+  background-color: green;
+  color: lightskyblue;
+  text-align: center;
+  max-width: 350px;
+  border-radius: 10px;
+  margin: 8px;
+}
+
+.container1 p{
+  color: lightskyblue;
+}
+
+body {
+  background-image: url("./../Images/Background-Image.JPEG");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(29, 29, 29);
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.headerhome {
+  display: grid;
+  grid-template-areas: auto auto;
+  grid-template-columns: 1fr 2fr;
+}
+
+.headerpic {
+  justify-self: right;
+}
+
+.headertext {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headertext h1 {
+  text-align: left;
+  font-size: 42px;
+}
+
+.headertext p {
+  text-align: left;
+  font-size: 18px;
+}
+
+.pic {
+  max-width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+main {
+  flex: 1;
+  align-self: center;
+  width: 70vw;
+  margin-top: 16px;
+  background-color: rgb(67, 67, 67);
+}
+
+main h1,
+main p {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+main header h1,
+main header p {
+  margin: 8px;
+  background-color: rgb(29, 29, 29);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h2,
+p {
+  margin: 10px;
+}
+
+p {
+  color: lightcyan;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: lightblue;
+}
+
+ul li a.active {
+  background-color: green;
+}
+
+.button {
+  display: flex;
+  background-color: green;
+  border: none;
+  color: lightskyblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttonfield {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  min-height: 50px;
+  background: green;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .headerhome {
+    display: flex;
+    flex-direction: column;
+    grid-template-areas: auto;
+    grid-template-columns: auto;
+  }
+
+  .headerpic {
+    align-self: center;
+  }
+
+  .headertext h1,
+  .headertext p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100vw;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  main {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container1 {
+    max-width: 550px;
+  }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
