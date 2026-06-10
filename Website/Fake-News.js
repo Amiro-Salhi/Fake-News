@@ -1,179 +1,179 @@
 const questions = [
     {
-        question: "Wat is Deepfake?",
-        optionA: "Een antivirusprogramma",
-        optionB: "Een door AI gemaakte nepvideo of audio",
-        optionC: "Een type computerchip",
-        optionD: "Een programmeertaal",
-        correctOption: "optionB"
-    },
-    {
-        question: "Waar wordt AI vaak voor gebruikt bij Nepnieuws?",
-        optionA: "Het verbeteren van wifi",
-        optionB: "Het automatisch genereren van teksten en afbeeldingen",
-        optionC: "Het maken van hardware",
-        optionD: "Het repareren van computers",
-        correctOption: "optionB"
-    },
-    {
-        question: "Wat is een belangrijke reden waarom nepnieuws gevaarlijk is?",
-        optionA: "Het kost veel opslagruimte",
-        optionB: "Het vertraagt internet",
-        optionC: "Het maakt computers kapot",
-        optionD: "Het verspreidt verkeerde informatie en beïnvloedt meningen",
-        correctOption: "optionD"
-    },
-    {
-        question: "Hoe kun je nepnieuws het beste herkennen?",
-        optionA: " Alles meteen geloven",
-        optionB: "Alleen naar de titel kijken",
-        optionC: "Bronnen controleren en vergelijken",
-        optionD: "Alleen op sociale media lezen",
-        correctOption: "optionC"
-    },
-    {
-        question: "Welke technologie maakt realistische nepstemmen mogelijk?",
-        optionA: "GPS",
-        optionB: "AI-spraaksynthese",
-        optionC: "Blockchain",
-        optionD: "Bluetooth",
-        correctOption: "optionB"
-    },
-    {
-        question: "Wat betekent “bias” in AI?",
-        optionA: "Vooringenomenheid in data of algoritmes",
-        optionB: "Een soort softwarefout",
-        optionC: "Snellere prestaties",
-        optionD: "Minder opslaggebruik",
-        correctOption: "optionA"
-    },
-    {
-        question: "Welke van deze is een voorbeeld van nepnieuws?",
-        optionA: "Een wetenschappelijk artikel met bronnen",
-        optionB: "Een gecontroleerd nieuwsbericht",
-        optionC: "Een verzonnen verhaal dat als echt wordt gepresenteerd",
-        optionD: "Een officiële overheidspublicatie",
-        correctOption: "optionC"
-    },
-    {
-        question: "Waarom kunnen deepfakes moeilijk te herkennen zijn?",
-        optionA: "Omdat ze zeer realistisch zijn gemaakt met AI",
-        optionB: "Omdat ze zwart-wit zijn",
-        optionC: "Omdat ze vaak lage kwaliteit hebben",
-        optionD: "Omdat ze altijd online verschijnen",
-        correctOption: "optionA"
-    },
-    {
-        question: "Wat kun je het beste doen als je denkt dat iets nepnieuws is?",
-        optionA: "Meteen delen",
-        optionB: "Niets doen",
-        optionC: "Alleen je vrienden vragen",
-        optionD: "Het controleren via betrouwbare bronnen",
-        correctOption: "optionD"
-    },
-    {
-        question: "Welke rol speelt sociale media bij nepnieuws?",
-        optionA: "Geen rol",
-        optionB: "Het helpt alleen bij educatie",
-        optionC: "Het voorkomt nepnieuws volledig",
-        optionD: "Het kan nepnieuws snel verspreiden",
-        correctOption: "optionD"
-    },
-    {
-        question: "Wat doet een algoritme op sociale media vaak?",
-        optionA: "Alleen berichten verwijderen",
-        optionB: "Internet sneller maken",
-        optionC: "Bepalen welke content je ziet",
-        optionD: "Virussen detecteren",
-        correctOption: "optionC"
-    },
-    {
-        question: "Wat is een “bot” op sociale media?",
-        optionA: "Een automatisch programma dat berichten plaatst",
-        optionB: "Een menselijke moderator",
-        optionC: "Een soort virus",
-        optionD: "Een spelaccount",
-        correctOption: "optionA"
-    },
-    {
-        question: "Wat betekent “fact-checking”?",
-        optionA: "Nieuws maken",
-        optionB: "Informatie controleren op waarheid",
-        optionC: "Foto's bewerken",
-        optionD: "Video's versnellen",
-        correctOption: "optionB"
-    },
-    {
-        question: "Waarom gebruiken makers AI voor nepnieuws?",
-        optionA: "Omdat het duurder is",
-        optionB: "Omdat het verboden is",
-        optionC: "Omdat het geen effect heeft",
-        optionD: "Omdat het sneller en goedkoper content kan maken",
-        correctOption: "optionD"
-    },
-    {
-        question: "Wat is een gevolg van nepnieuws?",
-        optionA: "Verwarring en misleiding",
-        optionB: "Betere technologie",
-        optionC: "Minder vertrouwen in media",
+        question: "Waarom worden deepfakes steeds overtuigender?",
+        optionA: "Betere camera's",
+        optionB: "Meer trainingsdata en krachtigere AI",
+        optionC: "Langzamere computers",
         optionD: "Minder internetgebruik",
-        correctOption: "optionA"
+        correctOption: "optionB"
     },
     {
-        question: "Welke bron is meestal het meest betrouwbaar?",
-        optionA: "Onbekende social media accounts",
-        optionB: "Berichten zonder bronvermelding",
-        optionC: "Erkende nieuwsorganisaties",
-        optionD: "Blogs zonder auteur",
+        question: "Wat is een risico van AI-gegenereerde teksten?",
+        optionA: "Ze laden traag",
+        optionB: "Ze bevatten vaak typefouten",
+        optionC: "Ze kunnen geloofwaardig maar fout zijn",
+        optionD: "Ze werken alleen offline",
         correctOption: "optionC"
     },
     {
-        question: "Wat is kenmerkend voor clickbait?",
-        optionA: "Overdreven of misleidende koppen",
-        optionB: "Informatieve titels",
-        optionC: "Neutrale toon",
-        optionD: " Officiële rapporten",
-        correctOption: "optionA"
+        question: "Waarom helpt fact-checking niet altijd direct?",
+        optionA: "Het is verboden",
+        optionB: "Nepnieuws verspreidt sneller",
+        optionC: "Het kost geen tijd",
+        optionD: "Het verwijdert berichten automatisch",
+        correctOption: "optionB"
     },
     {
-        question: "Wat kan AI doen met afbeeldingen?",
+        question: "Wat is een belangrijk kenmerk van AI-manipulatie?",
+        optionA: "Altijd zichtbaar",
+        optionB: "Subtiel en moeilijk te detecteren",
+        optionC: "Alleen tekst",
+        optionD: "Alleen video",
+        correctOption: "optionB"
+    },
+    {
+        question: "Waarom gebruiken bots nepnieuws?",
+        optionA: "Om opslag te verminderen",
+        optionB: "Om berichten sneller te verspreiden",
+        optionC: "Om internet te verbeteren",
+        optionD: "Om data te verwijderen",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat is een gevolg van algoritmes op sociale media?",
+        optionA: "Minder content",
+        optionB: "Alle berichten zichtbaar",
+        optionC: "Versterking van bepaalde meningen",
+        optionD: "Geen invloed",
+        correctOption: "optionC"
+    },
+    {
+        question: "Wat betekent het als een bron 'bias' heeft?",
+        optionA: "Altijd correct",
+        optionB: "Volledig neutraal",
+        optionC: "Eenzijdige of gekleurde informatie",
+        optionD: "Technisch probleem",
+        correctOption: "optionC"
+    },
+    {
+        question: "Waarom is bronvermelding belangrijk?",
+        optionA: "Voor opslag",
+        optionB: "Voor snelheid",
+        optionC: "Voor controleerbaarheid",
+        optionD: "Voor design",
+        correctOption: "optionC"
+    },
+    {
+        question: "Wat maakt clickbait effectief?",
+        optionA: "Korte teksten",
+        optionB: "Schokkende of emotionele titels",
+        optionC: "Wetenschappelijke taal",
+        optionD: "Neutrale inhoud",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat is een betrouwbare manier om info te checken?",
+        optionA: "Eén bron gebruiken",
+        optionB: "Meerdere bronnen vergelijken",
+        optionC: "Social media volgen",
+        optionD: "Reacties lezen",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat doet AI bij beeldmanipulatie?",
         optionA: "Alleen opslaan",
-        optionB: "Alleen zwart-wit maken",
-        optionC: "Realistische nepbeelden genereren",
-        optionD: "Alleen verkleinen",
+        optionB: "Kan beelden aanpassen of genereren",
+        optionC: "Alleen verkleinen",
+        optionD: "Alleen kopiëren",
+        correctOption: "optionB"
+    },
+    {
+        question: "Waarom vertrouwen mensen soms nepnieuws?",
+        optionA: "Het is altijd kort",
+        optionB: "Het bevestigt hun mening",
+        optionC: "Het is technisch",
+        optionD: "Het is oud",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat is een signaal van onbetrouwbare info?",
+        optionA: "Duidelijke bronnen",
+        optionB: "Evenwichtige toon",
+        optionC: "Extreme uitspraken zonder bewijs",
+        optionD: "Correcte data",
         correctOption: "optionC"
     },
     {
-        question: "Waarom is kritisch nadenken belangrijk bij nieuws?",
-        optionA: "Om Globaal te lezen",
-        optionB: "Om meer advertenties te zien",
-        optionC: "Om minder informatie te krijgen",
-        optionD: "Om nepnieuws te herkennen",
-        correctOption: "optionD"
+        question: "Wat doet een recommender system?",
+        optionA: "Virussen verwijderen",
+        optionB: "Content voorstellen",
+        optionC: "Data wissen",
+        optionD: "Hardware verbeteren",
+        correctOption: "optionB"
     },
     {
-        question: "Wat is een van de signalen dat nieuws mogelijk nep is?",
-        optionA: "Sensationele claims zonder bewijs",
-        optionB: "Meerdere betrouwbare bronnen",
-        optionC: "Duidelijke auteur en datum",
-        optionD: "Correcte spelling",
-        correctOption: "optionA"
+        question: "Waarom is snelheid belangrijk bij nepnieuws?",
+        optionA: "Voor opslag",
+        optionB: "Voor verspreiding vóór correctie",
+        optionC: "Voor kwaliteit",
+        optionD: "Voor design",
+        correctOption: "optionB"
     },
     {
-        question: "Wat kun je doen om verspreiding van nepnieuws te verminderen?",
-        optionA: "Alles delen wat je ziet",
-        optionB: "Alles negeren",
-        optionC: "Alleen reageren met Emoji's",
-        optionD: "Eerst controleren voordat je deelt",
-        correctOption: "optionD"
+        question: "Wat kan AI met stemmen doen?",
+        optionA: "Alleen opnemen",
+        optionB: "Realistisch nabootsen",
+        optionC: "Alleen verwijderen",
+        optionD: "Alleen versnellen",
+        correctOption: "optionB"
     },
     {
-        question: "Wat betekent “misinformatie”?",
-        optionA: "Informatie die expres wordt vervalst",
-        optionB: "Onjuiste informatie die per ongeluk wordt gedeeld",
-        optionC: "Alleen wetenschappelijke data",
-        optionD: "Alleen wetenschappelijke data",
-        correctOption: "optionB" 
+        question: "Wat is een risico van deepfake audio?",
+        optionA: "Slechte kwaliteit",
+        optionB: "Misleiding via nepstemmen",
+        optionC: "Geen geluid",
+        optionD: "Grote bestanden",
+        correctOption: "optionB"
+    },
+    {
+        question: "Waarom is mediawijsheid belangrijk?",
+        optionA: "Voor snelheid",
+        optionB: "Voor opslag",
+        optionC: "Voor kritisch beoordelen van info",
+        optionD: "Voor design",
+        correctOption: "optionC"
+    },
+    {
+        question: "Wat betekent verificatie van info?",
+        optionA: "Opslaan",
+        optionB: "Controleren op juistheid",
+        optionC: "Verwijderen",
+        optionD: "Versnellen",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat is een mogelijke impact van nepnieuws?",
+        optionA: "Meer opslag",
+        optionB: "Verkeerde beslissingen",
+        optionC: "Sneller internet",
+        optionD: "Minder data",
+        correctOption: "optionB"
+    },
+    {
+        question: "Waarom is context belangrijk bij nieuws?",
+        optionA: "Voor lengte",
+        optionB: "Voor uiterlijk",
+        optionC: "Voor juiste interpretatie",
+        optionD: "Voor snelheid",
+        correctOption: "optionC"
+    },
+    {
+        question: "Wat kun je doen bij twijfel over nieuws?",
+        optionA: "Direct delen",
+        optionB: "Negeren",
+        optionC: "Onderzoeken en checken",
+        optionD: "Opslaan",
+        correctOption: "optionC"
     }
 ];
 
