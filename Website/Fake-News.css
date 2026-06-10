@@ -1,7 +1,6 @@
 h1 {
   color: rgb(60, 179, 60);
   text-align: center;
-  background-color: blue;
 }
 
 h2 {
@@ -22,7 +21,7 @@ h3 {
 
 p{
   background-color: green;
-  color: lightskyblue;
+  color: white;
 }
 
 .container {
@@ -41,7 +40,7 @@ p{
 }
 
 .container1 p{
-  color: lightskyblue;
+  color: white;
 }
 
 .quiz {
@@ -148,7 +147,7 @@ p {
 }
 
 p {
-  color: lightcyan;
+  color: white;
   text-align: center;
 }
 
@@ -165,19 +164,30 @@ ul li {
 }
 
 ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-ul li a:hover:not(.active) {
-  background-color: lightblue;
+ul li a div{
+  display: block;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
 }
 
-ul li a.active {
-  background-color: green;
+ul li a img {
+  display: block;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+ul li a div:hover, ul li a img:hover {
+  background-color: lightblue;
+  color: black;
 }
 
 .button {
