@@ -1,4 +1,5 @@
-html,.Quiz {
+html,
+.Quiz {
 	background-image: url("./../Images/Background-Image.JPEG");
 	background-repeat: no-repeat;
 	background-size: cover;
