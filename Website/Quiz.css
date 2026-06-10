@@ -49,6 +49,7 @@ main {
 	justify-content: center;
 	border: 2px solid lightseagreen;
 	border-radius: 25px;
+	background-color: lightskyblue;
 }
 
 .game-question-container h1 {
@@ -90,7 +91,7 @@ span label:hover {
 	-ms-transform: scale(1.12);
 	-webkit-transform: scale(1.12);
 	transform: scale(1.12);
-	color: white;
+	color: dodgerblue;
 }
 
 input[type="radio"] {
@@ -100,7 +101,7 @@ input[type="radio"] {
 
 
 input[type=radio]:checked~.option {
-	background: blue;
+	background: lightskyblue;
 }
 
 .next-button-container {
@@ -123,7 +124,7 @@ input[type=radio]:checked~.option {
 }
 
 .next-button-container button:hover {
-	background-color: rgb(143, 93, 93);
+	background-color: red;
 }
 
 .modal-container {

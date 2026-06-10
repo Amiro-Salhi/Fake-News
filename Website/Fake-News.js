@@ -8,7 +8,7 @@ const questions = [
         correctOption: "optionB"
     },
     {
-        question: "Wat is een risico van AI-gegenereerde teksten?",
+        question: "Wat is een risico van AI gegenereerde teksten?",
         optionA: "Ze laden traag",
         optionB: "Ze bevatten vaak typefouten",
         optionC: "Ze kunnen geloofwaardig maar fout zijn",
@@ -16,7 +16,7 @@ const questions = [
         correctOption: "optionC"
     },
     {
-        question: "Waarom helpt fact-checking niet altijd direct?",
+        question: "Waarom helpt fact checking niet altijd direct?",
         optionA: "Het is verboden",
         optionB: "Nepnieuws verspreidt sneller",
         optionC: "Het kost geen tijd",
@@ -48,7 +48,7 @@ const questions = [
         correctOption: "optionC"
     },
     {
-        question: "Wat betekent het als een bron 'bias' heeft?",
+        question: "Wat betekent het als een bron 'Bias' heeft?",
         optionA: "Altijd correct",
         optionB: "Volledig neutraal",
         optionC: "Eenzijdige of gekleurde informatie",
@@ -73,7 +73,7 @@ const questions = [
     },
     {
         question: "Wat is een betrouwbare manier om info te checken?",
-        optionA: "Eén bron gebruiken",
+        optionA: "Een bron gebruiken",
         optionB: "Meerdere bronnen vergelijken",
         optionC: "Social media volgen",
         optionD: "Reacties lezen",
@@ -84,7 +84,7 @@ const questions = [
         optionA: "Alleen opslaan",
         optionB: "Kan beelden aanpassen of genereren",
         optionC: "Alleen verkleinen",
-        optionD: "Alleen kopiëren",
+        optionD: "Alleen kopieren",
         correctOption: "optionB"
     },
     {
@@ -114,7 +114,7 @@ const questions = [
     {
         question: "Waarom is snelheid belangrijk bij nepnieuws?",
         optionA: "Voor opslag",
-        optionB: "Voor verspreiding vóór correctie",
+        optionB: "Voor verspreiding voorr correctie",
         optionC: "Voor kwaliteit",
         optionD: "Voor design",
         correctOption: "optionB"
