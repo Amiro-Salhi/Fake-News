@@ -8,7 +8,7 @@ const questions = [
         correctOption: "optionB"
     },
     {
-        question: "Wat is een risico van AI-gegenereerde teksten?",
+        question: "Wat is een risico van AI gegenereerde teksten?",
         optionA: "Ze laden traag",
         optionB: "Ze bevatten vaak typefouten",
         optionC: "Ze kunnen geloofwaardig maar fout zijn",
@@ -16,15 +16,15 @@ const questions = [
         correctOption: "optionC"
     },
     {
-        question: "Waarom helpt fact-checking niet altijd direct?",
+        question: "Waarom verspreidt nepnieuws zich vaak sneller dan echt nieuws?",
         optionA: "Het is verboden",
-        optionB: "Nepnieuws verspreidt sneller",
+        optionB: "Het is spannender en emotioneler",
         optionC: "Het kost geen tijd",
-        optionD: "Het verwijdert berichten automatisch",
+        optionD: "Het wordt automatisch verwijderd",
         correctOption: "optionB"
     },
     {
-        question: "Wat is een belangrijk kenmerk van AI-manipulatie?",
+        question: "Wat is kenmerkend voor AI manipulatie?",
         optionA: "Altijd zichtbaar",
         optionB: "Subtiel en moeilijk te detecteren",
         optionC: "Alleen tekst",
@@ -34,61 +34,61 @@ const questions = [
     {
         question: "Waarom gebruiken bots nepnieuws?",
         optionA: "Om opslag te verminderen",
-        optionB: "Om berichten sneller te verspreiden",
+        optionB: "Om berichten snel te verspreiden",
         optionC: "Om internet te verbeteren",
         optionD: "Om data te verwijderen",
         correctOption: "optionB"
     },
     {
-        question: "Wat is een gevolg van algoritmes op sociale media?",
-        optionA: "Minder content",
-        optionB: "Alle berichten zichtbaar",
-        optionC: "Versterking van bepaalde meningen",
-        optionD: "Geen invloed",
-        correctOption: "optionC"
+        question: "Wat doen algoritmes op sociale media?",
+        optionA: "Ze verwijderen alles",
+        optionB: "Ze tonen geselecteerde content",
+        optionC: "Ze versnellen internet",
+        optionD: "Ze blokkeren gebruikers",
+        correctOption: "optionB"
     },
     {
-        question: "Wat betekent het als een bron 'bias' heeft?",
-        optionA: "Altijd correct",
-        optionB: "Volledig neutraal",
-        optionC: "Eenzijdige of gekleurde informatie",
+        question: "Wat betekent Bias in informatie?",
+        optionA: "Altijd neutraal",
+        optionB: "Altijd correct",
+        optionC: "Eenzijdig of gekleurd",
         optionD: "Technisch probleem",
         correctOption: "optionC"
     },
     {
         question: "Waarom is bronvermelding belangrijk?",
-        optionA: "Voor opslag",
-        optionB: "Voor snelheid",
-        optionC: "Voor controleerbaarheid",
-        optionD: "Voor design",
-        correctOption: "optionC"
-    },
-    {
-        question: "Wat maakt clickbait effectief?",
-        optionA: "Korte teksten",
-        optionB: "Schokkende of emotionele titels",
-        optionC: "Wetenschappelijke taal",
-        optionD: "Neutrale inhoud",
+        optionA: "Voor snelheid",
+        optionB: "Voor controleerbaarheid",
+        optionC: "Voor design",
+        optionD: "Voor opslag",
         correctOption: "optionB"
     },
     {
-        question: "Wat is een betrouwbare manier om info te checken?",
-        optionA: "Eén bron gebruiken",
+        question: "Wat maakt clickbait effectief?",
+        optionA: "Korte zinnen",
+        optionB: "Emotionele of schokkende titels",
+        optionC: "Wetenschappelijke taal",
+        optionD: "Neutrale toon",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat is de beste manier om informatie te controleren?",
+        optionA: "Een bron gebruiken",
         optionB: "Meerdere bronnen vergelijken",
         optionC: "Social media volgen",
         optionD: "Reacties lezen",
         correctOption: "optionB"
     },
     {
-        question: "Wat doet AI bij beeldmanipulatie?",
+        question: "Wat kan AI doen met beelden?",
         optionA: "Alleen opslaan",
-        optionB: "Kan beelden aanpassen of genereren",
+        optionB: "Aanpassen of genereren",
         optionC: "Alleen verkleinen",
-        optionD: "Alleen kopiëren",
+        optionD: "Alleen kopieren",
         correctOption: "optionB"
     },
     {
-        question: "Waarom vertrouwen mensen soms nepnieuws?",
+        question: "Waarom geloven mensen soms nepnieuws?",
         optionA: "Het is altijd kort",
         optionB: "Het bevestigt hun mening",
         optionC: "Het is technisch",
@@ -96,31 +96,31 @@ const questions = [
         correctOption: "optionB"
     },
     {
-        question: "Wat is een signaal van onbetrouwbare info?",
+        question: "Wat is een teken van onbetrouwbare informatie?",
         optionA: "Duidelijke bronnen",
         optionB: "Evenwichtige toon",
-        optionC: "Extreme uitspraken zonder bewijs",
+        optionC: "Extreme claims zonder bewijs",
         optionD: "Correcte data",
         correctOption: "optionC"
     },
     {
-        question: "Wat doet een recommender system?",
-        optionA: "Virussen verwijderen",
-        optionB: "Content voorstellen",
-        optionC: "Data wissen",
-        optionD: "Hardware verbeteren",
+        question: "Wat is een recommender system?",
+        optionA: "Virus scanner",
+        optionB: "Systeem dat content aanbeveelt",
+        optionC: "Data verwijderaar",
+        optionD: "Hardware tool",
         correctOption: "optionB"
     },
     {
         question: "Waarom is snelheid belangrijk bij nepnieuws?",
         optionA: "Voor opslag",
-        optionB: "Voor verspreiding vóór correctie",
+        optionB: "Om correcties voor te zijn",
         optionC: "Voor kwaliteit",
         optionD: "Voor design",
         correctOption: "optionB"
     },
     {
-        question: "Wat kan AI met stemmen doen?",
+        question: "Wat kan AI doen met stemmen?",
         optionA: "Alleen opnemen",
         optionB: "Realistisch nabootsen",
         optionC: "Alleen verwijderen",
@@ -130,7 +130,7 @@ const questions = [
     {
         question: "Wat is een risico van deepfake audio?",
         optionA: "Slechte kwaliteit",
-        optionB: "Misleiding via nepstemmen",
+        optionB: "Misleiding met nepstemmen",
         optionC: "Geen geluid",
         optionD: "Grote bestanden",
         correctOption: "optionB"
@@ -139,12 +139,12 @@ const questions = [
         question: "Waarom is mediawijsheid belangrijk?",
         optionA: "Voor snelheid",
         optionB: "Voor opslag",
-        optionC: "Voor kritisch beoordelen van info",
+        optionC: "Voor kritisch denken",
         optionD: "Voor design",
         correctOption: "optionC"
     },
     {
-        question: "Wat betekent verificatie van info?",
+        question: "Wat betekent verificatie van informatie?",
         optionA: "Opslaan",
         optionB: "Controleren op juistheid",
         optionC: "Verwijderen",
@@ -152,7 +152,7 @@ const questions = [
         correctOption: "optionB"
     },
     {
-        question: "Wat is een mogelijke impact van nepnieuws?",
+        question: "Wat is een gevolg van nepnieuws?",
         optionA: "Meer opslag",
         optionB: "Verkeerde beslissingen",
         optionC: "Sneller internet",
@@ -168,12 +168,76 @@ const questions = [
         correctOption: "optionC"
     },
     {
-        question: "Wat kun je doen bij twijfel over nieuws?",
+        question: "Wat moet je doen bij twijfel over nieuws?",
         optionA: "Direct delen",
         optionB: "Negeren",
-        optionC: "Onderzoeken en checken",
+        optionC: "Controleren en onderzoeken",
         optionD: "Opslaan",
         correctOption: "optionC"
+    },
+    {
+        question: "Waarom kan bias in AI gevaarlijk zijn?",
+        optionA: "AI is altijd neutraal",
+        optionB: "Het kan misleidende output geven",
+        optionC: "AI gebruikt geen data",
+        optionD: "Bias bestaat niet",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat is een kenmerk van deepfake video?",
+        optionA: "Altijd zwart Wit",
+        optionB: "Alleen entertainment",
+        optionC: "Realistische manipulatie",
+        optionD: "Geen geluid",
+        correctOption: "optionC"
+    },
+    {
+        question: "Hoe kan AI nepnieuws versterken?",
+        optionA: "Door content automatisch te genereren",
+        optionB: "Door alleen feiten te tonen",
+        optionC: "Door niets te doen",
+        optionD: "Door nieuws te blokkeren",
+        correctOption: "optionA"
+    },
+    {
+        question: "Wat is Confirmation Bias?",
+        optionA: "Alles onthouden",
+        optionB: "Info geloven die je mening bevestigt",
+        optionC: "Alle nieuws lezen",
+        optionD: "AI vertrouwen",
+        correctOption: "optionB"
+    },
+    {
+        question: "Waarom beinvloeden algoritmes wat je ziet?",
+        optionA: "Ze kiezen relevante content voor jou",
+        optionB: "Ze verwijderen alles",
+        optionC: "Ze maken internet sneller",
+        optionD: "Ze blokkeren woorden",
+        correctOption: "optionA"
+    },
+    {
+        question: "Wat is een risico zonder menselijke controle bij AI?",
+        optionA: "Kortere tekst",
+        optionB: "Fouten of misleiding",
+        optionC: "Geen woorden",
+        optionD: "Niet deelbaar",
+        correctOption: "optionB"
+    },
+    {
+        question: "Hoe herken je mogelijke deepfake audio?",
+        optionA: "Lengte controleren",
+        optionB: "Onnatuurlijke patronen horen",
+        optionC: "Bestandstype bekijken",
+        optionD: "Titel lezen",
+        correctOption: "optionB"
+    },
+    {
+        question: "Wat is een Echo Chamber?",
+        optionA: "Geluidsruimte",
+        optionB: "Omgeving waar je dezelfde meningen blijft zien",
+        optionC: "Technisch probleem",
+        optionD: "Opslagruimte",
+        correctOption: "optionB"
     }
 ];
 
