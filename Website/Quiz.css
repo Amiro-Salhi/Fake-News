@@ -19,8 +19,8 @@ main {
 }
 
 .game-quiz-container {
-	width: 40rem;
-	height: 30rem;
+	width: 50rem;
+	height: 40rem;
 	background-color: green;
 	display: flex;
 	flex-direction: column;
@@ -47,9 +47,10 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid lightseagreen;
+	border: 2px solid grey;
 	border-radius: 25px;
-	background-color: lightskyblue;
+	background-color: rgb(29, 29, 29);
+	color: rgb(60, 179, 60);
 }
 
 .game-question-container h1 {
@@ -69,10 +70,13 @@ main {
 
 .game-options-container span {
 	width: 45%;
-	height: 3rem;
-	border: 2px solid lightseagreen;
+	height: 4rem;
+
 	border-radius: 20px;
 	overflow: hidden;
+	cursor: pointer;
+	transition: transform 0.3s;
+	margin: 4px;
 }
 
 span label {
@@ -83,16 +87,25 @@ span label {
 	justify-content: center;
 	cursor: pointer;
 	transition: transform 0.3s;
+	transition: ease-in-out 0.3s;
 	font-weight: 600;
-	color: rgb(22, 22, 22);
+	text-align: center;
+	color: lightseagreen;
+	background-color: rgb(23, 23, 83);
 }
 
-span label:hover {
+span:hover {
 	-ms-transform: scale(1.12);
 	-webkit-transform: scale(1.12);
 	transform: scale(1.12);
-	color: dodgerblue;
+
 }
+
+span label:hover {
+	color: white;
+	background-color: rgb(46, 46, 166);
+}
+
 
 input[type="radio"] {
 	position: relative;
@@ -102,6 +115,7 @@ input[type="radio"] {
 
 input[type=radio]:checked~.option {
 	background: lightskyblue;
+	color: black;
 }
 
 .next-button-container {
@@ -115,8 +129,11 @@ input[type=radio]:checked~.option {
 	width: 8rem;
 	height: 2rem;
 	border-radius: 10px;
+	margin: 16px;
 	background: none;
-	color: rgb(25, 25, 25);
+	color: white;
+	background-color: red;
+	transition: ease-in-out 0.1s;
 	font-weight: 600;
 	border: 2px solid gray;
 	cursor: pointer;
@@ -124,7 +141,7 @@ input[type=radio]:checked~.option {
 }
 
 .next-button-container button:hover {
-	background-color: red;
+	background-color: darkred;
 }
 
 .modal-container {
@@ -238,7 +255,7 @@ input[type=radio]:checked~.option {
 	}
 }
 
-@media(min-width : 350px) and (max-width : 700px) {
+@media(min-width : 350px) and (max-width : 850px) {
 	.game-quiz-container {
 		width: 90%;
 		height: 80vh;
