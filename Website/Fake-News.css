@@ -192,9 +192,15 @@ ul li a div:hover, ul li a img:hover {
 
 .button {
   display: flex;
+<<<<<<< HEAD
   background-color:rgb(23, 23, 83);
   border: none;
   color: lightseagreen;
+=======
+  background-color: lightseagreen;
+  border: none;
+  color: lightgreen;
+>>>>>>> origin/main
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
