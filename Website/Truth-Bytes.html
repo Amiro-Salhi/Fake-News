@@ -4,29 +4,23 @@
 <head>
     <title>TruthBytes</title>
     <link rel="icon" type="image/x-icon" href="./../Images/Favicon.JPEG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <link rel="stylesheet" href="Fake-News.css">
 <link rel="Script" href="Fake-News.js">
 
 <body>
-    <ul>
-        <li><a href="Truth-Bytes.html"><img src="../Images/Logo.png" width="64px" alt="Home"></a></li>
-        <li><a href="Fake-News.html"><div>Nepnieuws</div></a></li>
-        <li><a href="AI.html"><div>AI</div></a></li>
-        <li><a href="Quiz.html"><div>Quiz</div></a></li>
-        <li style="float:right"><a href="Over Ons.html"><div>Over Ons</div></a></li>
-    </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="Truth-Bytes.html" class="active"><img src="../Images/Logo.png" width="64px" alt="Home"></a>
+        <a href="Fake-News.html">Nepnieuws</a>
+        <a href="AI.html">AI</a>
+        <a href="Quiz.html">Quiz</a>
+        <a href="Over Ons.html" class="aboutus">Over Ons</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
-    <div class="topnav">
-  <a href="#home" class="active">Logo</a>
-  <div id="myLinks">
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="#about">About</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
     <main>
         <header>
             <div class="headerhome">
@@ -45,7 +39,8 @@
         <div class="container">
             <section class="container1">
                 <h2>AI</h2>
-                <p>"AI is handig maar we gebruiken het voor alles tegenwoordig dat wij vaak niet weten wat echt of Nep
+                <p>"AI is handig maar we gebruiken het voor alles tegenwoordig dat wij vaak niet weten wat echt of
+                    Nep
                     is"</p>
                 <p>- Jan Boute</p>
             </section>
@@ -79,7 +74,7 @@
                 <p>"Nepnieuws moet gewoon verdwijnen, het maakt de samenleving kapot"</p>
                 <p>- Tom Klaasse</p>
             </section>
-            
+
             <section class="container1">
                 <h2>Nepnieuws</h2>
                 <p>"Nepnieuws verspreidt zich niet omdat het waar is, maar omdat het mensen raakt."</p>
@@ -123,4 +118,5 @@
     </footer>
 </body>
 <script src="Fake-News.js"></script>
+
 </html>
